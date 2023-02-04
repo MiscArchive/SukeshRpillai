@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sukesh R Pillai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" " />
+    <meta name="keywords" content="" />
+    <meta content="Themesdesign" name="author" />
+
+    <link rel="shortcut icon" href="images/log 2.ico">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" id="bootstrap-style" />
+
+    <!-- Material Icon Css -->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css" type="text/css" />
+
+    <!-- Unicon Css -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/tiny-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/tiny-slider.css.map" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
+    <a href="javascript: void(0);" id="mode" class="mode-btn text-white rounded-end">
+        <i class="uil uil-brightness mode-dark mx-auto"></i>
+        <i class="uil uil-moon bx-spin mode-light"></i>
+    </a>
+
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+        <div class="container-fluid custom-container">
+            <a class="navbar-brand logo text-uppercase" href="index.html">
+                <img src="images/NAME_4.png" class="logo-light" alt="" height="34">
+                <img src="images/NAME_4.png" class="logo-dark" alt="" height="34">
+            </a>
+
+            <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto navbar-center">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#service" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#work" class="nav-link ">Books</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                    </li>
+
+                    
+                </ul>
+                <!--end navbar-nav-->
+                <div class="ms-auto ps-2 ps-lg-0" >
+                    <a href="" class="btn btn-dark rounded-pill my-3 my-lg-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me!</a>
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book For Speech</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form class="row g-3 needs-validation">
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">First name <span
+                                    class="text-primary">*</span></label>
+                            <input type="text" class="form-control" id="validationCustom01" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom02" class="form-label">Email <span
+                                    class="text-primary">*</span></label>
+                            <input type="email" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">Subject <span
+                                    class="text-primary">*</span></label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom05" class="form-label">Password <span
+                                    class="text-primary">*</span></label>
+                            <input type="password" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="validationTextarea" class="form-label">Textarea<span
+                                    class="text-primary">*</span></label>
+                            <textarea class="form-control" id="validationTextarea" required></textarea>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+
+    <!-- home section -->
+    <section id="home"class="home-6 position-relative overflow-hidden">
+        <!-- container -->
+        <div class="top-home" style="background-image: url(./images/home/home-6/bg-top.png);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <h2 class="display-2 fw-semibold mb-0">I'am Sukesh R Pillai</h2>
+                        <p class="text-muted">Author & Founder of Luvall</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="text-muted">
+                            Author & CEO of Love All Sports and BNB library
+                            It is a long established fact that books are our best friend, as reading helps build up our wisdom and thinking capabilities.
+                            
+                          
+                             </p>
+                        <p class="text-muted">  Grow as a reader and gain a fortune of knowledge through books.
+                            
+                            I’m here to reduce stress and put you in a good mood with my books.</p>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <img src="images/home (1).png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom-item">
+            <a href="" class="video-button avatar-sm bg-primary" data-bs-toggle="modal"
+                data-bs-target="#watchvideomodal">
+                <i class="mdi mdi-play fs-20 text-dark"></i>
+            </a>
+         
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h6 class="text-white">Follow Me</h6>
+
+                        <div class="follow-icon">
+                            <div class="d-flex">
+                                <div class="social-icon me-2">
+                                    <a href="https://www.facebook.com/sukeshramakrishnapillai" class="text-white-50"> <i class="mdi mdi-facebook fs-24"></i></a>
+                                </div>
+                                <div class="social-icon mx-2">
+                                    <a href="https://www.instagram.com/pillaisukesh/" class="text-white-50"> <i class="mdi mdi-instagram fs-24"></i></a>
+                                </div>
+                                <div class="social-icon mx-2">
+                                    <a href="" class="text-white-50"> <i class="mdi mdi-linkedin fs-24"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-2 mt-2 pt-2">
+                        <h6 class="text-white">Instagram</h6>
+                        <h2 class="text-white-50 fw-semibold display-5">4K</h2>
+                    </div>
+
+                    <div class="col-lg-1">
+                        <div class="border-topup"></div>
+                    </div>
+
+                    <div class="col-lg-2 mt-2 pt-2">
+                        <h6 class="text-white">Follow</h6>
+                        <h2 class="text-white-50 fw-semibold display-5">2K</h2>
+                    </div> -->
+
+                    <!-- <div class="col-lg-5">
+                        <div class="home6-slider mt-4 py-4" id="home6-slider">
+                            <div class="item">
+                                <h6 class="text-white"><span class="me-2">01</span>Carole aniol</h6>
+                                <img src="images/home/home-6/s-1.png" alt="" class="img-fluid">
+                            </div>
+                            <!-- slider item 
+
+                            <div class="item">
+                                <h6 class="text-white"><span class="me-2">02</span>Jone Lee</h6>
+                                <img src="images/home/home-6/s-2.png" alt="" class="img-fluid">
+                            </div>
+
+                            <!-- slider item 
+                            <div class="item">
+                                <h6 class="text-white"><span class="me-2">03</span>Bonie camie</h6>
+                                <img src="images/home/home-6/s-4.png" alt="" class="img-fluid">
+                            </div>
+
+                            <!-- slider item 
+                            <div class="item">
+                                <h6 class="text-white"><span class="me-2">04</span>Patric Davis</h6>
+                                <img src="images/home/home-6/s-3.png" alt="" class="img-fluid">
+                            </div>
+
+                        </div> -->
+
+                    </div>
+            </div>
+
+        </div>
+        <!-- end container -->
+
+        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+                <div class="modal-content hero-modal-0 bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <video id="VisaChipCardVideo1" class="w-100" controls>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                        <!--Browser does not support <video> tag -->
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home section -->
+
+
+
+
+    <!-- about-me section -->
+    <section id ="service"class="section about-me">
+        <!-- container -->
+        <div class="container position-relative">
+            <div class="about-box">
+                <div class="row">
+                    <div class="col-lg-6 position-relative">
+                        <div class="image-round"></div>
+                        <div class="about-image p-4 pb-0">
+                            <img src="images/about (2).png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-item p-5">
+                            <h2 class="display-5 fw-semibold">About Me</h2>
+                            <p class="text-muted fs-14">I’m Sukesh Ramakrishna Pillai, an author. The founder and CEO of Love All Sports Academy and BNB Library, Trivandrum. 
+                                I was born in 1978. On October 20, 2016, I came up with the idea of establishing a Center of Excellence for popular games, and it came to fruition. 
+                                I’m an electronics and communications engineer with a master's degree in business administration and eighteen years of telecom industry experience. 
+                                I had worked with prominent international conglomerates such as Reliance, Motorola, Ericsson, Wipro, and Globacom in and outside of India.
+
+                                In the year 2022, the brand BNB Library (<a href="https://www.bnblibrary.in/"> https://www.bnblibrary.in/ </a>) was born in the capital city of Kerala. 
+                                The library is packed with a wide diversity of books on various topics and subjects. The objective of the library is to inculcate reading habits in all public who have lost touch with reading due to the emergence of social media. 
+                                </p>
+
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end about-me -->
+
+   
+    <!-- start my-work -->
+    <section class="section my-work" id="work">
+        <!-- start container -->
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center">
+                    <div class="left-text">
+                         <h2 class="mb-0">My Latest Work</h2>
+                        <!-- <p class="fs-15 text-muted">Prefect solution for digital experience</p>  -->
+                    </div>
+                    <div class="right-text ms-auto">
+                        <a href="index-6.html" class="text-primary border-2 border-primary border-bottom">More Work <img
+                                src="images/home/right-arrow-primary.png" alt="" class="img-fluid mb-1 ms-2"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="work-slider" id="work-slider">
+                        <div class="item">
+                            <div class="work-image position-relative">
+                                <a href="">
+                                    <img src="images/work/a.jpg "alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <!-- <h4 class="mb-0">Web Design</h4>
+                                        <p>E-Commerce</p> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- slider item -->
+                        <div class="item">
+                            <div class="work-image">
+                                <a href="">
+                                    <img src="images/work/b.jpg" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5">
+                                        <!-- <h4 class="mb-0">NFT Web Design</h4>
+                                        <p>NFT Maerketplace</p> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- slider item -->
+                        <div class="item">
+                            <div class="work-image">
+                                <a href="">
+                                    <img src="images/work/love all.jpg" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <!-- <h4 class="mb-0">App Design</h4>
+                                        <p class="text-white-50">Mobile App </p> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- slider item -->
+                        <!-- <div class="item">
+                            <div class="work-image">
+                                <a href="">
+                                    <img src="images/work/img-4.png" alt="" class="img-fluid">
+                                    <div class="image-title mt-5 ms-5 text-white">
+                                        <h4 class="mb-0">Web Design</h4>
+                                        <p class="text-white-50">E-Commerce</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end my-work -->
+
+
+   
+    <!-- start blog -->
+    <section class="section blog" id="blog">
+        <!-- start container -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center mb-4">
+                        <h6 class="mb-0 text-muted fs-15">Blog</h6>
+                        <h2>Our Regular News</h2>
+                        <p class="para-width text-muted mb-0 fs-15">A Private Limited is the most popular type of
+                            partnership Malta. The limited liability is, in fact, the only type of company allowed by
+                            Companies.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+
+            <div class="row">
+           
+
+                <div class="col-lg-4 mt-4 pt-2">
+                    <div class="blog-item p-4 box-shadow">
+                        <div class="blog-image">
+                            <img src="images/blog/library.jpg" alt="" class="img-fluid">
+                            <div class="blog-image-icon bg-secondary">
+                                <i class="mdi mdi-responsive fs-24"></i>
+                            </div>
+                        </div>
+                        <div class="blog-content mt-5">
+                            <!-- <p class="text-muted fw-semibold mb-2">May 25, 2021</p> -->
+                            <a href=""><h5>Books N Beyond</h5></a>
+                            <p class="fs-15 text-muted">“Books N Beyond” library is the place you can walk straight to without the effort of maintaining a membership. Reading a book is completely free here. 
+                                You can just walk in, read the book and give it back when you leave. If you wish to take the book home, you need to furnish a security amount. But that will duly be returned when the book is given back. 
+                                “Books N Beyond” is here for those who love reading books- the right place for book lovers.</p>
+                            <a href="B&B Library.html" class="text-dark fw-semibold">Learn more <i
+                                    class="mdi mdi-arrow-right fs-16"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 pt-2">
+                    <div class="blog-item p-4 box-shadow">
+                        <div class="blog-image">
+                            <img src="images/blog/Untitled-1.jpg" alt="" class="img-fluid">
+                            <div class="blog-image-icon bg-primary">
+                                <i class="mdi mdi-vector-combine fs-24"></i>
+                            </div>
+                        </div>
+                        <div class="blog-content mt-5">
+                            <!-- <p class="text-muted fw-semibold mb-2">May 25, 2021</p> -->
+                            <a href=""><h5>Book Donation Drive</h5></a>
+                            <p class="fs-15 text-muted"> With a single mission, we are hosting a book donation drive and helping to start a community library in Trivandrum.
+                                Spark a reading revolution today itself. We are conducting a campaign “Book Donation Drive for Tribal Child-2023”. </p>
+                            <a href="BookDonationdrive.html" class="text-dark fw-semibold">Learn more <i
+                                    class="mdi mdi-arrow-right fs-16"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end blog -->
+
+
+
+   <!-- start contact -->
+   <section class="contact pt-5 pb-0" id="contact">
+    <!-- start container -->
+    <div class="container">
+
+        <div class="shape-1">
+            <img src="images/testi/shape.png" alt="" class="img-fluid">
+        </div>
+
+        <div class="contact-item">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="mb-4">
+                            <h3>Let's Connect</h3>
+                            <p class="text-muted mb-0">Looking for help? Fill the form and start a new adventure.
+                            </p>
+                        </div>
+
+                        <hr>
+
+                        <div class="info-content mt-4">
+                            <h6>Address :</h6>
+                            <div class="d-flex">
+                                <div class="icon">
+                                    <i class="mdi mdi-home-outline fs-24 text-primary"></i>
+                                </div>
+                                <div class="icon-content ms-3">
+                                    <p class="mb-0 fs-15">Sukesh R Pillai
+                                        KRWA 153 B, 
+                                        Sudara, Kattachal Road, Trivandrum 695013
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-content mt-4 pt-2">
+                            <h6>Phone :</h6>
+                            <div class="d-flex">
+                                <div class="icon">
+                                    <i class="mdi mdi-phone-outline fs-24 text-primary"></i>
+                                </div>
+                                <div class="icon-content ms-3">
+                                    <p class="mb-0 fs-15">+919747797799 </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="info-content mt-4 pt-2">
+                            <h6>Support :</h6>
+                            <div class="d-flex">
+                                <div class="icon">
+                                    <i class="mdi mdi-email-outline fs-24 text-primary"></i>
+                                </div>
+                                <div class="icon-content ms-3">
+                                    <p class="mb-0 fs-15">  sukeshrpillai@yahoo.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-7 ">
+                    <div class="custom-form mt-4 ">
+                        <form method="post" name="myForm" onsubmit="return validateForm()">
+
+                            <h6 class="mb-0 text-muted">Let's Chat</h6>
+    
+                            <p class=" fs-15 text-muted">The seemingly impersonal contact form below will deliver your message personally into my 
+                                inbox. I usually reply within 48 hours. 
+                                </p>
+                            <p id="error-msg" style="opacity: 1;">
+                                <!-- <div class="alert alert-warning">*Please enter a Name*</div> -->
+                            </p>
+
+
+                            <div id="simple-msg"></div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input name="name" id="name" type="text" class="form-control contact-form"
+                                            placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input name="email" id="email" type="email"
+                                            class="form-control contact-form" placeholder="Your email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <input type="text" class="form-control contact-form" id="subject"
+                                            placeholder="Your Subject..">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4"
+                                            class="form-control contact-form h-auto"
+                                            placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <div class="col-lg-12 d-grid">
+                                    <input type="submit" id="submit" name="send"
+                                        class="submitBnt btn btn-rounded btn-primary" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shape-2">
+            <img src="images/testi/shape-2.png" alt="" class="img-fluid">
+        </div>
+
+        <div class="shape-3 ">
+            <img src="images/testi/shape-3.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <!-- end container -->
+</section>
+<!-- end contact -->
+
+    <!-- start footer -->
+    <section class=" footer">
+        <!-- start container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="mt-5">
+                        <a class=" logo text-uppercase" href="index.html">
+                             <!-- <img src="images/logo-dark.png" class="logo-light" alt="" height="32"> -->
+                             <img src="images/NAME_ WHITE.png" class="logo-dark" alt="" height="28">
+                        </a>
+                        <p class="fs-15 text-white-50 mt-4">Author & CEO of Love All Sports and BNB library.</p>
+
+                        <div class="icon-item mt-4">
+                            <div class="d-flex">
+                                <a href="https://www.facebook.com/sukeshramakrishnapillai">
+                                    <div class="social-icon facebook avatar-xs">
+                                        <i class="mdi mdi-facebook "></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/pillaisukesh/">
+                                    <div class="social-icon instagram avatar-xs">
+                                        <i class="mdi mdi-instagram "></i>
+                                    </div>
+                                </a>
+                               
+                                <a href="#">
+                                    <div class="social-icon linkedin avatar-xs">
+                                        <i class="mdi mdi-linkedin"></i>
+                                    </div>
+                                </a>
+                               
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <h5 class="text-white">Company</h5>
+
+                    <ul class="footer-text list-unstyled mt-4">
+                        <li><a href="#home"><i class="mdi mdi-arrow-right me-2"></i>Profile</a></li>
+                        <li><a href="#"><i class="mdi mdi-arrow-right me-2"></i>Luvall Sports</a></li>
+                        <li><a href="#"><i class="mdi mdi-arrow-right me-2"></i>B&B Library</a></li>
+                        <li><a href="#blog"><i class="mdi mdi-arrow-right me-2"></i>Blogs</a></li>
+                        <li><a href="#contact"><i class="mdi mdi-arrow-right me-2"></i>Contact</a></li>
+                    </ul>
+
+                </div>
+
+               
+
+                    
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+
+    <section class="bottom-footer py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <p class="mb-0 text-center text-muted">©
+                        <script>document.write(new Date().getFullYear())</script>   Design  by <a href="https://miscarchive.com/" target="_blank"
+                            class="text-muted">MISCARCHIVE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+
+
+    <!--Bootstrap Js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slider Js -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- conter -->
+    <script src="js/counter.init.js"></script>
+
+    <!-- App Js -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

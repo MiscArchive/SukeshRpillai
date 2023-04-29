@@ -2470,3 +2470,15 @@ body[data-layout-mode=dark] .footer .linkedin-box::before {
 body[data-layout-mode=dark] .bottom-footer {
   background-color: #343f4b !important;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+.thumbnail {
+  border: none;
+  padding: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
